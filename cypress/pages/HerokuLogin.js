@@ -1,6 +1,6 @@
 let baseUrl = Cypress.config('baseUrl');
 
-class HerokuAuthForm {
+class HerokuLogin {
     //Locators
     FormAuthButton() {
         return cy.get(':nth-child(21) > a')
@@ -30,4 +30,4 @@ class HerokuAuthForm {
     }
 }
 
-export default HerokuAuthForm
+export default HerokuLogin
