@@ -1,6 +1,6 @@
-import forgotPass from "../../pages/forgotPass"
+import ForgotPass from "../../pages/ForgotPass"
 
-const forgot = new forgotPass()
+const forgot = new ForgotPass()
 
 describe('Visit forgot password page', () => {
 

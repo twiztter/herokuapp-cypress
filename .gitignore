@@ -1,0 +1,17 @@
+# Dependency directories
+node_modules/
+
+# Cypress directories
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+
+# IDE / Editor configuration
+.vscode/
+.idea/
+
+# Operating System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store

@@ -1,6 +1,6 @@
 let baseUrl = Cypress.config('baseUrl');
 
-class forgotPass {
+class ForgotPass {
     //locators
     emailInput() {
         return cy.get('#email').type('testing@mail.com')
@@ -24,4 +24,4 @@ class forgotPass {
 }
 
 
-export default forgotPass 
+export default ForgotPass 
